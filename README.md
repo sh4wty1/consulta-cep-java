@@ -1,13 +1,36 @@
-# Aplicativo para consultar informações do CEP através da API ViaCep
+# ViaCEP API Client
 
-## Utilização:
+Java application that fetches address data from the ViaCEP API using an input CEP.
 
-* Na pasta com o arquivo 'Main.java', compile o código utilizando: `javac Main.java`
-* Ao compilar, execute: `java Main`
+## 🚀 Features
 
-### Output do terminal:
+* Fetch address by CEP
+* JSON parsing with Jackson
+* Error handling for invalid CEP
+* Interactive terminal input
+
+## 🛠 Technologies
+
+* Java 17+
+* HttpClient
+* Jackson Databind
+* Maven
+
+## ▶ How to Run
+
+1. Clone the repository
+2. Run the Main class
+3. Enter a CEP
+
+Example:
 
 ```
-Bem vindo ao consulta CEP!
-Digite seu CEP (digite 'sair' para fechar o programa):
+01310-000
 ```
+
+## 📚 What I learned
+
+* Consuming REST APIs
+* JSON parsing
+* Exception handling
+* Clean project structure
